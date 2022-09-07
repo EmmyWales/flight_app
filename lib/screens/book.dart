@@ -48,7 +48,7 @@ class _BookTicketState extends State<BookTicket> {
                     width: 120,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Color(0XFFEFEFFF),
+                      color: const Color(0XFFEFEFFF),
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -72,7 +72,7 @@ class _BookTicketState extends State<BookTicket> {
                         Text(
                           "One Way",
                           style: GoogleFonts.poppins(
-                              fontSize: 16, color: Color(0XFF5C608C)),
+                              fontSize: 16, color: const Color(0XFF5C608C)),
                         )
                       ],
                     ),
@@ -101,7 +101,7 @@ class _BookTicketState extends State<BookTicket> {
                         Text(
                           "Round Trip",
                           style: GoogleFonts.poppins(
-                              fontSize: 16, color: Color(0XFF5C608C)),
+                              fontSize: 16, color: const Color(0XFF5C608C)),
                         )
                       ],
                     ),
@@ -116,7 +116,7 @@ class _BookTicketState extends State<BookTicket> {
                 width: 1000,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Color(0XFFF5F6FF),
+                  color: const Color(0XFFF5F6FF),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(15.0),
@@ -125,7 +125,7 @@ class _BookTicketState extends State<BookTicket> {
                     children: [
                       Column(
                         children: [
-                          Icon(
+                          const Icon(
                             Icons.flight,
                             size: 20,
                             color: Color(0XFF979799),
@@ -135,7 +135,7 @@ class _BookTicketState extends State<BookTicket> {
                             style: GoogleFonts.poppins(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w500,
-                                color: Color(0XFF979799)),
+                                color: const Color(0XFF979799)),
                           )
                         ],
                       ),
@@ -147,14 +147,14 @@ class _BookTicketState extends State<BookTicket> {
                             style: GoogleFonts.poppins(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w400,
-                                color: Color(0XFF979799)),
+                                color: const Color(0XFF979799)),
                           ),
                           Text(
                             "San Franciso",
                             style: GoogleFonts.poppins(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
-                                color: Color(0XFF979799)),
+                                color: const Color(0XFF979799)),
                           ),
                         ],
                       )
@@ -170,7 +170,7 @@ class _BookTicketState extends State<BookTicket> {
                 width: 1000,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Color(0XFFF5F6FF),
+                  color: const Color(0XFFF5F6FF),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(15.0),
@@ -183,9 +183,9 @@ class _BookTicketState extends State<BookTicket> {
                             style: GoogleFonts.poppins(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w500,
-                                color: Color(0XFF979799)),
+                                color: const Color(0XFF979799)),
                           ),
-                          Icon(Icons.place, size: 20, color: Color(0XFF979799)),
+                          const Icon(Icons.place, size: 20, color: Color(0XFF979799)),
                         ],
                       ),
                       Column(
@@ -196,14 +196,14 @@ class _BookTicketState extends State<BookTicket> {
                             style: GoogleFonts.poppins(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w400,
-                                color: Color(0XFF979799)),
+                                color: const Color(0XFF979799)),
                           ),
                           Text(
                             "New York",
                             style: GoogleFonts.poppins(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
-                                color: Color(0XFF979799)),
+                                color: const Color(0XFF979799)),
                           ),
                         ],
                       )
@@ -219,7 +219,7 @@ class _BookTicketState extends State<BookTicket> {
                 width: 160,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Color(0XFFF5F6FF),
+                  color: const Color(0XFFF5F6FF),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(10.0),
@@ -240,11 +240,11 @@ class _BookTicketState extends State<BookTicket> {
                           Text("Passengers", style: GoogleFonts.poppins(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w400,
-                                color: Color(0XFF979799)),),
+                                color: const Color(0XFF979799)),),
                           Text("2 Adults",  style: GoogleFonts.poppins(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
-                                color: Color(0XFF979799)),),
+                                color: const Color(0XFF979799)),),
                         ],
                       )
                     ],
@@ -262,7 +262,7 @@ class _BookTicketState extends State<BookTicket> {
                     height: 70,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Color(0XFFF5F6FF),
+                      color: const Color(0XFFF5F6FF),
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -279,11 +279,11 @@ class _BookTicketState extends State<BookTicket> {
                               Text("Departures", style: GoogleFonts.poppins(
                               fontSize: 12,
                               fontWeight: FontWeight.w400,
-                              color: Color(0XFF979799)),),
+                              color: const Color(0XFF979799)),),
                               Text("5 July 2020", style: GoogleFonts.poppins(
                               fontSize: 12,
                               fontWeight: FontWeight.w600,
-                              color: Color(0XFF979799)),)
+                              color: const Color(0XFF979799)),)
                             ],
                           )
                         ],
@@ -295,7 +295,7 @@ class _BookTicketState extends State<BookTicket> {
                     height: 70,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Color(0XFFF5F6FF),
+                      color: const Color(0XFFF5F6FF),
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -312,7 +312,7 @@ class _BookTicketState extends State<BookTicket> {
                             Text("Class", style: GoogleFonts.poppins(
                               
                               fontWeight: FontWeight.w400,
-                              color: Color(0XFF979799)),),
+                              color: const Color(0XFF979799)),),
                             DropdownButton(
                               value: dropdownValue,
                               icon: const Icon(
@@ -327,7 +327,7 @@ class _BookTicketState extends State<BookTicket> {
                                       style: GoogleFonts.poppins(
                               
                               fontWeight: FontWeight.w600,
-                              color: Color(0XFF979799)),
+                              color: const Color(0XFF979799)),
                                     ));
                               }).toList(),
                               onChanged: (String? newValue) {
@@ -343,7 +343,7 @@ class _BookTicketState extends State<BookTicket> {
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Row(
@@ -351,21 +351,21 @@ class _BookTicketState extends State<BookTicket> {
                   Container(
                     height: 28,
                     width: 42,
-                    child: Icon(Icons.settings, color: Color(0XFF979799)),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Color(0XFFF5F6FF),
+                      color: const Color(0XFFF5F6FF),
                     ),
+                    child: const Icon(Icons.settings, color: Color(0XFF979799)),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 30,
                   ),
                   MaterialButton(
                     onPressed: () {
                       Navigator.push(
-                          context, MaterialPageRoute(builder: (_) => Ticket()));
+                          context, MaterialPageRoute(builder: (_) => const Ticket()));
                     },
-                    color: Color(0XFF5B67F0),
+                    color: const Color(0XFF5B67F0),
                     height: 50,
                     minWidth: 200,
                     shape: RoundedRectangleBorder(
@@ -377,7 +377,7 @@ class _BookTicketState extends State<BookTicket> {
                   )
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Row(
@@ -386,17 +386,17 @@ class _BookTicketState extends State<BookTicket> {
                   Text(
                     "Recommended",
                     style: GoogleFonts.poppins(
-                        fontWeight: FontWeight.w600, color: Color(0XFF121212)),
+                        fontWeight: FontWeight.w600, color: const Color(0XFF121212)),
                   ),
                   TextButton(
                       onPressed: () {},
                       child: Text(
                         "View all",
-                        style: GoogleFonts.poppins(color: Color(0XFF979799)),
+                        style: GoogleFonts.poppins(color: const Color(0XFF979799)),
                       ))
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Row(
@@ -407,7 +407,7 @@ class _BookTicketState extends State<BookTicket> {
                     height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Color(0XFF00CEFF),
+                      color: const Color(0XFF00CEFF),
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(15.0),
@@ -422,7 +422,7 @@ class _BookTicketState extends State<BookTicket> {
                               color: Colors.white,
                             ),
                             child: Column(
-                              children: [
+                              children: const [
                                 Icon(
                                   Icons.flight,
                                   size: 24,
@@ -431,7 +431,7 @@ class _BookTicketState extends State<BookTicket> {
                               ],
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 5,
                           ),
                           Text(
@@ -449,7 +449,7 @@ class _BookTicketState extends State<BookTicket> {
                                     fontWeight: FontWeight.w500,
                                     color: Colors.white),
                               ),
-                              Icon(
+                              const Icon(
                                 Icons.swap_horiz,
                                 color: Colors.white,
                               ),
@@ -477,7 +477,7 @@ class _BookTicketState extends State<BookTicket> {
                     height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Color(0XFF709BFF),
+                      color: const Color(0XFF709BFF),
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(15.0),
@@ -492,7 +492,7 @@ class _BookTicketState extends State<BookTicket> {
                               color: Colors.white,
                             ),
                             child: Column(
-                              children: [
+                              children: const [
                                 Icon(
                                   Icons.flight,
                                   size: 24,
@@ -501,7 +501,7 @@ class _BookTicketState extends State<BookTicket> {
                               ],
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 10,
                           ),
                           Text(
@@ -519,7 +519,7 @@ class _BookTicketState extends State<BookTicket> {
                                     fontWeight: FontWeight.w500,
                                     color: Colors.white),
                               ),
-                              Icon(
+                              const Icon(
                                 Icons.swap_horiz,
                                 color: Colors.white,
                               ),
@@ -546,7 +546,7 @@ class _BookTicketState extends State<BookTicket> {
                     height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Color(0XFFFFB28A),
+                      color: const Color(0XFFFFB28A),
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(15.0),
@@ -561,7 +561,7 @@ class _BookTicketState extends State<BookTicket> {
                               color: Colors.white,
                             ),
                             child: Column(
-                              children: [
+                              children: const [
                                 Icon(
                                   Icons.flight,
                                   size: 24,
@@ -570,7 +570,7 @@ class _BookTicketState extends State<BookTicket> {
                               ],
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 10,
                           ),
                           Text(
@@ -588,7 +588,7 @@ class _BookTicketState extends State<BookTicket> {
                                     fontWeight: FontWeight.w500,
                                     color: Colors.white),
                               ),
-                              Icon(
+                              const Icon(
                                 Icons.swap_horiz,
                                 color: Colors.white,
                               ),

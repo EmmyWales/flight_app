@@ -86,7 +86,7 @@ class _TicketState extends State<Ticket> {
                 height: 250,
                 width: 1000,
                 decoration: BoxDecoration(
-                  color: Color(0XFFF5F6FF),
+                  color: const Color(0XFFF5F6FF),
                   borderRadius: BorderRadius.circular(10)
                  
                 ),
@@ -129,7 +129,7 @@ class _TicketState extends State<Ticket> {
                                   const Icon(
                                     Icons.attach_money,
                                     size: 16,
-                                    color: const Color(0XFF121212),
+                                    color: Color(0XFF121212),
                                   ),
                                   Text("234",
                                       style: GoogleFonts.poppins(
@@ -260,7 +260,7 @@ class _TicketState extends State<Ticket> {
                                   style: GoogleFonts.poppins(
                                       fontSize: 16,
                                       fontWeight: FontWeight.w700,
-                                       color: Color(0XFF979799))),
+                                       color: const Color(0XFF979799))),
                                Text("NYC", style: GoogleFonts.poppins(
                                       fontSize: 16,
                                       color: const Color(0XFF979799))),
@@ -271,7 +271,7 @@ class _TicketState extends State<Ticket> {
                                   style: GoogleFonts.poppins(
                                       fontSize: 16,
                                       fontWeight: FontWeight.w700,
-                                       color: Color(0XFF979799))),
+                                       color: const Color(0XFF979799))),
                                Text("SFO", style: GoogleFonts.poppins(
                                       fontSize: 16,
                                       color: const Color(0XFF979799)))
@@ -288,7 +288,7 @@ class _TicketState extends State<Ticket> {
                 height: 250,
                 width: 1000,
                 decoration: BoxDecoration(
-                  color: Color(0XFFF5F6FF),
+                  color: const Color(0XFFF5F6FF),
                   borderRadius: BorderRadius.circular(10),
 
                  
@@ -332,7 +332,7 @@ class _TicketState extends State<Ticket> {
                                   const Icon(
                                     Icons.attach_money,
                                     size: 16,
-                                    color: const Color(0XFF121212),
+                                    color: Color(0XFF121212),
                                   ),
                                   Text("546",
                                       style: GoogleFonts.poppins(
@@ -373,7 +373,7 @@ class _TicketState extends State<Ticket> {
                                   style: GoogleFonts.poppins(
                                       fontSize: 16,
                                       fontWeight: FontWeight.w700,
-                                      color: Color(0XFF979799))),
+                                      color: const Color(0XFF979799))),
                                Text("SFO", style: GoogleFonts.poppins(
                                       fontSize: 16,
                                       color: const Color(0XFF979799))),
@@ -384,7 +384,7 @@ class _TicketState extends State<Ticket> {
                                   style: GoogleFonts.poppins(
                                       fontSize: 14,
                                       fontWeight: FontWeight.w700,
-                                      color: Color(0XFF979799))),
+                                      color: const Color(0XFF979799))),
                                Text("NFC", style: GoogleFonts.poppins(
                                       fontSize: 16,
                                       color: const Color(0XFF979799)))
@@ -433,16 +433,16 @@ class _TicketState extends State<Ticket> {
                                   Icon(
                                     Icons.flight,
                                     size: 24,
-                                    color: const Color(0XFF979799),
+                                    color: Color(0XFF979799),
                                   ),
                                   Text(
                                     ".................................",
-                                    style: TextStyle(fontSize: 16, color: const Color(0XFF979799)),
+                                    style: TextStyle(fontSize: 16, color: Color(0XFF979799)),
                                   ),
                                   Icon(
                                     Icons.place,
                                     size: 24,
-                                    color: const Color(0XFF979799)
+                                    color: Color(0XFF979799)
                                   )
                                 ],
                               )
@@ -490,7 +490,7 @@ class _TicketState extends State<Ticket> {
                 onPressed: (){
                   
                 },
-                color: Color(0XFF5B67F0),
+                color: const Color(0XFF5B67F0),
                 height: 50,
                 minWidth: 360,
                 shape: RoundedRectangleBorder(
