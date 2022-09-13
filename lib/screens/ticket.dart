@@ -144,7 +144,7 @@ class _TicketState extends State<Ticket> {
                       ),
                       Row(
                         children: [
-                          Text("-----------------------------------------------",
+                          Text("--------------------------------------------",
                               style: GoogleFonts.poppins(
                                 color: const Color(0XFF979799),
                               )),
@@ -347,7 +347,7 @@ class _TicketState extends State<Ticket> {
                       ),
                       Row(
                         children: [
-                          Text("-----------------------------------------------",
+                          Text("----------------------------------------------",
                               style: GoogleFonts.poppins(
                                 color: const Color(0XFF979799),
                               )),
