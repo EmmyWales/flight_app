@@ -19,7 +19,7 @@ class _TicketState extends State<Ticket> {
         title: const Text("Select Ticket"),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(15.0),
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
@@ -347,7 +347,7 @@ class _TicketState extends State<Ticket> {
                       ),
                       Row(
                         children: [
-                          Text("----------------------------------------------",
+                          Text("--------------------------------------------",
                               style: GoogleFonts.poppins(
                                 color: const Color(0XFF979799),
                               )),

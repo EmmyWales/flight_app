@@ -403,7 +403,7 @@ class _BookTicketState extends State<BookTicket> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    width: 120,
+                    width: 115,
                     height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
@@ -473,7 +473,7 @@ class _BookTicketState extends State<BookTicket> {
                     ),
                   ),
                   Container(
-                    width: 120,
+                    width: 115,
                     height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
@@ -542,7 +542,7 @@ class _BookTicketState extends State<BookTicket> {
                     ),
                   ),
                   Container(
-                    width: 120,
+                    width: 115,
                     height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
